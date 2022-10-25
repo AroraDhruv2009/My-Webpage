@@ -1,2 +1,40 @@
-table,th,tr,td{
-border: 2px solid black;}
+#rcorner {
+  border-radius: 25px;
+  border: 10px solid black;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+#intro {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#inspi {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+body{
+  background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+
+.responsive img{
+  width: 350px;
+  height: 500px;
+  border: 2px solid #ff3d0036;
+  border-radius: 13px;
+  box-shadow: 4px 7px 0px #00000042;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+
+.responsive img:hover{
+  transform: scale(1.03);
+}
+
+.fontsize{
+  font-size: 40px;
+}
